@@ -1,0 +1,341 @@
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+
+input,textarea,select,button{
+    outline: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #fff;
+}
+
+section{
+    padding-top: 100px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+    color: #ef4729;
+    margin-bottom: 21px;
+}
+
+.subtitle{
+    max-width: 535px;
+    margin: 0 auto 145px;
+    color: #1f2c33;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+
+.subtitle::after{
+    content: "";
+    position: absolute;
+    width: 134px;
+    height: 1px;
+    background: #d7d7d7;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -28px;
+}
+
+.navbar{
+    padding: 35px 0;
+    background: none !important;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-link{
+    padding: 11px 16px !important;
+    color: #1f2c33 !important;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.navbar .nav-link:hover{
+    background: #ef4729;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.navbar .active .nav-link{
+    background: #ef4729;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+header{
+    background: url("../images/header_bg.jpg") no-repeat center center / cover;
+    padding: 280px 0 260px;
+    text-align: center;
+    color: #fff;
+}
+
+h1{
+    max-width: 925px;
+    margin: 0 auto 29px;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+header p{
+    max-width: 585px;
+    font-size: 14px;
+    margin: 0 auto 36px;
+    line-height: 25px;
+}
+
+header a{
+    padding: 21px 49px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+header a:hover{
+    background: #fff;
+    color: #ed4f2e;
+}
+
+.services .fa{
+    font-size: 60px;
+    color: #000;
+}
+
+.services h3{
+    font-size: 25px;
+    color: #1f2c33;
+    margin: 19px 0 12px;
+    transition: 0.5s;
+}
+
+.services .col-xl-4 p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #4f4f4f;
+    margin-bottom: 114px;
+}
+
+.services .col-xl-4:hover h3{
+    color: #ed4f2e;
+}
+
+.pricing{
+    padding-top: 0;
+}
+
+.pricing-card{
+    border: 1px solid #ebebeb;
+    padding: 31px 0 55px;
+    transition: 0.4s;
+}
+
+.pricing-card .plan{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 33px;
+    color: #1f2c33;
+}
+
+.pricing-card .price{
+    font-weight: 600;
+    font-size: 45px;
+    padding: 27px 0;
+    background: #ebebeb;
+    color: #1f2c33;
+    transition: 0.4s;
+}
+
+.pricing-card .price span{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pricing-card ul{
+    margin: 55px 0 50px;
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 31px;
+}
+
+.pricing-card a{
+    padding: 11px 24px;
+    color: #fff;
+    background: #ed4f2e;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.pricing-card:hover{
+    border-color: #ed4f2e;
+}
+
+.pricing-card:hover .price{
+    color: #fff;
+    background: #ed4f2e;
+}
+
+.projects .col-xl-4{
+    margin-bottom: 30px;
+}
+
+.contact .col-xl-6 input,.contact textarea{
+    width: 100%;
+    height: 74px;
+    padding-left: 20px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    font-weight: 300;
+    color: #1f2c33;
+    font-size: 14px;
+}
+
+.contact .col-xl-6 input::placeholder,.contact textarea::placeholder{
+    color: #1f2c33;
+}
+
+.contact .col-xl-12 textarea{
+    height: 293px;
+    padding-top: 26px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.contact .col-xl-12 input{
+    width: 120px;
+    height: 40px;
+    background: #ef4729;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+}
+
+.contact{
+    padding-bottom: 100px;
+}
+
+footer{
+    background: #1f2c33;
+    padding: 88px 0;
+}
+
+footer h5{
+    font-weight: 700;
+    margin-bottom: 33px;
+    font-size: 20px;
+}
+
+footer .logo{
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #a3b1bf;
+    line-height: 22px;
+}
+
+footer .address{
+    margin-top: 22px;
+}
+
+footer .address .fa{
+    margin-right: 10px;
+    width: 14px;
+}
+
+footer .address a{
+    font-size: 14px;
+    color: #a3b1bf;
+    line-height: 22px;
+}
+
+.gallery img{
+    width: 49%;
+    margin-bottom: 7px;
+}
+
+footer input[type="text"]{
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    padding-left: 11px;
+    background: #404b51;
+    font-weight: 300;
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+footer input[type="text"]::placeholder{
+    color: #a3b1bf;
+}
+
+footer input[type="submit"]{
+    border-radius: 3px;
+    border: none;
+    background: #ed4f2e;
+    padding: 0 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: -3px;
+}
+
+footer form{
+    margin-top: 19px;
+}
+
+footer .social{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social a{
+    width: 42px;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.copy{
+    padding: 35px 0;
+    color: #fff;
+    background: #283645;
+    font-size: 14px;
+}

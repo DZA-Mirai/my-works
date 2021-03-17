@@ -1,0 +1,110 @@
+@media (max-width: 1199.98px){
+    .blog .text{
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 991.98px){
+    h1{
+        margin-top: 160px;
+    }
+    header{
+        padding-bottom: 160px;
+    }
+    .navbar .nav-link{
+        margin-bottom: 15px;
+    }
+    .services .col-xl-4:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .right{
+        right: 14px;
+    }
+    .works .row{
+        justify-content: center;
+    }
+    .blog .col-xl-5{
+        margin-bottom: 30px;
+    }
+    .contact .col-xl-3{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767.98px){
+    h1{
+        margin-top: 120px;
+    }
+    header{
+        padding-bottom: 120px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .services .col-xl-4:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .sponsors-img img{
+        margin: 15px;
+    }
+    .sponsors-img{
+        justify-content: center !important;
+    }
+    .contact .col-xl-3{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .address{
+        width: 250px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .address-text{
+        align-items: center;
+        margin: 20px 0 0;
+    }
+    form button{
+        margin: 0 auto 20px;
+    }
+    form p{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px){
+    h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    header p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .header-btn{
+        padding: 10px 33px;
+    }
+    .like p{
+        font-size: 20px;
+    }
+    .headline{
+        flex-direction: column;
+    }
+    .head-date{
+        margin: 0 0 15px 0;
+    }
+    .blog{
+        text-align: center;
+    }
+    .headline h4{
+        font-size: 14px;
+    }
+    form input{
+        width: 100%;
+    }
+}

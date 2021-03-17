@@ -1,0 +1,95 @@
+@media (max-width: 1199.98px){
+    .top .col-xl-4 img{
+        max-width: 290px !important;
+    }
+    .middle h4{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 991.98px){
+    header{
+        text-align: center;
+    }
+    .top .col-xl-4{
+        margin-bottom: 30px;
+    }
+    .top{
+        text-align: center;
+    }
+    .middle .col-md-8{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .middle{
+        text-align: center;
+    }
+    .middle .row{
+        justify-content: center !important;
+    }
+    .middle h4{
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767.98px){
+    .tel{
+        font-size: 19px;
+        margin-right: 10px;
+    }
+    nav .button{
+        padding: 12px 18px !important;
+        font-size: 11px !important;
+    }
+    .middle .col-xl-4 .img{
+        margin: 0 auto 50px;
+    }
+    .middle h4{
+        font-size: 24px;
+    }
+    .middle a{
+        font-size: 14px !important;
+        padding: 12px 18px !important;
+    }
+    .bottom .row{
+        justify-content: center;
+    }
+    .bottom .col-xl-4{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .tel{
+        font-size: 16px;
+        margin-right: -7px;
+    }
+    .navbar-nav .button{
+        display: none !important;
+    }
+    header h2{
+        margin: 100px 0 30px;
+    }
+    header h1{
+        font-size: 65px;
+    }
+    header{
+        padding-bottom: 90px;
+    }
+    .top span{
+        display: none;
+    }
+    .middle .abs{
+        left: 40px;
+    }
+    .middle h4{
+        font-size: 20px;
+    }
+    .bottom .block{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

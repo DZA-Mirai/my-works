@@ -1,0 +1,220 @@
+@media (min-width:1200px) {
+    .container{
+        max-width: 1470px
+    }
+}
+
+@media (max-width: 1199.98px){
+    header h1{
+        font-size: 45px;
+    }
+    header p{
+        line-height: 30px;
+    }
+    header iframe{
+        height: 250px;
+    }
+    .customer .customer-left h2{
+        font-size: 38px;
+    }
+    .customer-right img{
+        margin-right: 30px;
+    }
+    .customer-right .fill{
+        padding: 25px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .navbar-nav li:not(:last-child){
+        margin-right: 25px;
+    }
+    header .row{
+        text-align: center;
+    }
+    header h1{
+        max-width: none;
+    }
+    header iframe{
+        width: 70%;
+        height: 250px;
+    }
+    header .col-xl-5{
+        margin-top: 120px;
+    }
+    header{
+        padding-bottom: 150px;
+    }
+    .navbar-collapse{
+        max-width: 350px;
+    }
+    .line .quarter span{
+        width: 50px;
+        height: 50px;
+    }
+    .line .quarter p{
+        font-size: 18px;
+    }
+    .customer .customer-left{
+        margin: 0 auto 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px){
+    .navbar-toggler{
+        color: #fff;
+    }
+    header .navbar-nav{
+        flex-direction: column !important;
+        margin-top: 10px;
+    }
+    header .nav-link{
+        padding: 8px 0 !important;
+    }
+    .navbar-collapse{
+        max-width: none;
+    }
+    header .login-sm{
+        display: inline-block;
+    }
+    header .login-xl{
+        display: none;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .subtitle{
+        font-size: 23px;
+    }
+    .text{
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .easy .col-xl-3{
+        margin-bottom: 30px;
+    }
+    .easy .col-xl-3 p{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .easy .col-xl-3 h4{
+        margin: 20px 0;
+    }
+    .easy .button{
+        margin-top: 40px;
+    }
+    .line{
+        flex-wrap: wrap;
+    }
+    .line .quarter{
+        width: 50%;
+    }
+    .services .card-body{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .services .card-text{
+        margin: 30px auto 0;
+    }
+    footer{
+        padding: 50px 0;
+    }
+    footer .navbar{
+        justify-content: center;
+    }
+    footer .navbar-logo{
+        margin-bottom: 30px;
+    }
+    footer .bottom ul div{
+        margin: 0 10px;
+    }
+    footer .bottom .social a:not(:first-child){
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 575.98px){
+    header{
+        padding-bottom: 100px;
+    }
+    header h1{
+        font-size: 35px;
+    }
+    header .col-xl-5{
+        margin-top: 70px;
+    }
+    header p{
+        font-size: 15px;
+    }
+    header .col-xl-5 a{
+        padding: 15px 25px;
+    }
+    header .col-xl-5 .free{
+        margin-left: 20px;
+        padding: 15px !important;
+    }
+    header iframe{
+        height: 210px;
+        width: 100%;
+    }
+    .team img{
+        max-width: 75px;
+    }
+    .team .img{
+        justify-content: center !important;
+        padding: 0 10px;
+    }
+    .team .middle{
+        border: 12px solid #fff;
+        margin: 0 10px;
+        max-width: 128px;
+    }
+    .line .quarter{
+        padding: 30px 0;
+    }
+    .line .quarter span{
+        font-size: 25px;
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .line .quarter p{
+        max-width: 70px;
+        font-size: 15px;
+    }
+    .customer .customer-right{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .customer .customer-right img{
+        margin: 0 0 30px;
+    }
+    .arrow-up{
+        top: -150px;
+    }
+    .contact{
+        padding-top: 0;
+    }
+    footer .navbar{
+        justify-content: flex-start;
+    }
+    footer .navbar-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .navbar-nav .nav-link{
+        padding: 8px !important;
+    }
+    footer .bottom{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    footer .social{
+        margin-top: 25px;
+        flex-basis: 100%;
+        text-align: center;
+    }
+}

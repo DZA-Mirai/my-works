@@ -1,0 +1,489 @@
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+
+input,textarea,select,button{
+    outline: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background: url("../images/header_bg.jpg") no-repeat center center / cover;
+    padding: 50px 0 185px;
+    color: #fff !important;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand,.nav-link,header .col-xl-5 a,.text,.easy .col-xl-3 p,.button,.card-body .card-text p,.btn-link,.customer .customer-left p,.customer-right .fill p,.team .img-text,.contact .col-xl-12 .checkbox label,footer .bottom a{
+    font-size: 15px;
+}
+
+.navbar-brand{
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff !important;
+    line-height: 15px;
+    margin: 0;
+}
+
+.navbar-brand span{
+    font-weight: 400;
+}
+
+.navbar-logo{
+    width: 180px;
+}
+
+.navbar-nav li:not(:last-child){
+    margin-right: 50px;
+}
+
+.nav-link,.title,.subtitle,.easy .col-xl-3 h4,.customer .customer-left h2{
+    font-weight: 600;
+}
+
+.nav-link{
+    color: #fff !important;
+    transition: 0.5s;
+    padding: 0 !important;
+}
+
+.navbar-collapse{
+    max-width: 530px;
+}
+
+header .nav-link:hover{
+    color: #061e37 !important;
+}
+
+header .login{
+    padding: 5px 19px;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+header .login-sm{
+    display: none;
+}
+
+header .col-xl-5{
+    margin-top: 160px;
+}
+
+header h1{
+    font-weight: 800;
+    font-size: 55px;
+    text-transform: uppercase;
+    max-width: 579px;
+}
+
+header p{
+    font-size: 18px;
+    line-height: 35px;
+    margin: 10px 0 35px;
+}
+
+header .col-xl-5 a,.button,.btn-link,.customer-right .fill h4,.team h5{
+    font-weight: 700;
+}
+
+header .col-xl-5 a,.title,.easy .col-xl-3 h4,.card-body .card-text p,.customer-right .fill h4,.team h5,.contact .text,.contact .col-xl-6 input,.contact textarea,.contact .col-xl-6 input::placeholder,.contact textarea::placeholder,.contact .col-xl-12 .checkbox label{
+    color: #061e37;
+}
+
+header .col-xl-5 a{
+    padding: 21px 40px;
+    background: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+header .col-xl-5 .free{
+    padding: 21px 26px 21px 31px !important;
+    margin-left: 30px;
+}
+
+header .col-xl-5 a:hover{
+    background: #061e37;
+    color: #fff;
+}
+
+header iframe{
+    width: 100%;
+    height: 320px;
+    border-radius: 6px;
+    border: 1px solid #061e37;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+}
+
+.subtitle{
+    text-align: center;
+    color: #b0bec5;
+    font-size: 25px;
+}
+
+.text{
+    max-width: 555px;
+    margin: 0 auto;
+    color: #b0bec5;
+    text-align: center;
+}
+
+.easy .text{
+    margin: 15px auto 50px;
+}
+
+section{
+    padding: 95px 0 100px;
+}
+
+.easy .col-xl-3 p{
+    color: #78909c;
+    line-height: 20px;
+}
+
+.easy .col-xl-3 h4{
+    font-size: 20px;
+    margin: 45px 0 20px;
+}
+
+.button{
+    display: inline-block;
+    padding: 22px 23px 22px 28px;
+    text-transform: uppercase;
+    color: #fff !important;
+    background: #1de9b6;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.easy .button{
+    margin-top: 78px;
+}
+
+.line .quarter{
+    width: 25%;
+    padding: 45px 0;
+}
+
+.line .quarter-first{
+    background: #80d8ff;
+    color: #80d8ff;
+}
+
+.line .quarter-second{
+    background: #82b1ff;
+    color: #82b1ff;
+}
+
+.line .quarter-third{
+    background: #b388ff;
+    color: #b388ff;
+}
+
+.line .quarter-fourth{
+    background: #ea80fc;
+    color: #ea80fc;
+}
+
+.line .quarter span{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.line .quarter p{
+    font-weight: 800;
+    color: #fff !important;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.services .text{
+    margin: 24px auto 48px;
+}
+
+.services .accordion{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-header{
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.card{
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-body{
+    padding: 7px 25px 25px;
+}
+
+.card-body .card-text{
+    max-width: 450px;
+    margin-left: auto;
+}
+
+.card-body .card-text p{
+    line-height: 25px;
+}
+
+.card-body .card-text p:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.btn-link{
+    border: none;
+    padding: 18px 25px;
+    text-transform: uppercase;
+    position: relative;
+    color: #061e37 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.btn-link .left{
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.btn-link .right{
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.customer{
+    padding: 87px 0;
+    background: url("../images/customers_bg_02.jpg") no-repeat center center / cover;
+}
+
+.customer .customer-left{
+    color: #fff;
+    max-width: 515px;
+}
+
+.customer .customer-left h2{
+    font-size: 45px;
+}
+
+.customer .customer-left p{
+    font-weight: 500;
+    margin: 20px 0 78px;
+}
+
+.customer .customer-left .button{
+    background: #061e37;
+}
+
+.customer-right{
+    max-width: 760px;
+}
+
+.customer-right:not(:last-child){
+    margin-bottom: 70px;
+}
+
+.customer-right .fill{
+    max-width: 650px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 32px 50px 30px 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.customer-right img{
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.customer-right .fill h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.customer-right .fill p{
+    color: #78909c;
+    line-height: 25px;
+}
+
+.customer-right .fill span{
+    font-size: 45px;
+    color: #fff;
+}
+
+.arrow-up{
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team .middle{
+    border: 20px solid #fff;
+    border-radius: 50%;
+    box-shadow: -1px 0px 15px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 15px -2px rgba(0,0,0,0.75);
+}
+
+.team .img{
+    max-width: 462px;
+    margin: 78px auto 40px;
+}
+
+.team .img-text{
+    max-width: 645px;
+    margin: 20px auto 30px;
+    color: #90a4ae;
+    line-height: 25px;
+}
+
+.team h5{
+    font-size: 18px;
+}
+
+.team a{
+    color: #90a4ae;
+    font-size: 20px;
+}
+
+.team a:not(:last-child){
+    margin-right: 30px;
+}
+
+.contact{
+    background: #fafafa;
+}
+
+.contact .text{
+    margin: 20px auto 50px;
+}
+
+.contact .container-form{
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contact .col-xl-6 input,.contact textarea{
+    width: 100%;
+    height: 50px;
+    padding-left: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #061e37;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.contact textarea{
+    height: 150px;
+    padding-top: 19px;
+    resize: none;
+}
+
+.contact .col-xl-12 .send{
+    border: none;
+    width: 130px;
+    height: 50px;
+    background: #1de9b6;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contact label{
+    margin: 0;
+}
+
+.contact .col-xl-12 .checkbox input{
+    margin-right: 10px;
+}
+
+.contact .col-xl-12 .checkbox label{
+    font-weight: 500;
+}
+
+footer{
+    background: #061e37;
+    padding: 95px 0 105px;
+}
+
+footer .bottom{
+    margin-top: 52px;
+}
+
+footer .bottom ul{
+    display: flex;
+    align-items: center;
+}
+
+footer .bottom ul div{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background: #fff;
+}
+
+footer .bottom a{
+    color: #627181;
+}
+
+footer .bottom .social a{
+    font-size: 20px;
+}
+
+footer .bottom .social a:not(:first-child){
+    margin-left: 20px;
+}

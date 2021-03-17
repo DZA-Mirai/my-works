@@ -1,0 +1,177 @@
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #fff;
+}
+
+.middle h4, .middle ul, .bottom{
+    color: #a6a6a6;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 257px;
+    background: url(../images/header_bg_01.jpg) no-repeat center center / cover;
+    margin-bottom: 80px;
+}
+
+.button{
+    padding: 15px 26px !important;
+    background: #68bf3b;
+    border-radius: 26px;
+    color: #fff !important;
+    font-size: 16px !important;
+    display: inline-block !important;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    background: none !important;
+}
+
+.navbar-brand, .top h3, .top .name, .middle h3, .middle h4, .bottom h5{
+    font-weight: 700;
+}
+
+.tel{
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.button-pad{
+    padding: 15px 45px !important;
+}
+
+header h2{
+    margin: 180px 0 32px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+header p{
+    margin: 40px 0 50px;
+    font-size: 18px;
+}
+
+header h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.top h3{
+    color: #68bf3b;
+    font-size: 36px;
+    margin-bottom: 65px;
+}
+
+.top p{
+    font-size: 18px;
+    color: #bdbdbd;
+    line-height: 36px;
+}
+
+.top span{
+    margin-left: 63px;
+}
+
+.top .name{
+    font-size: 24px;
+}
+
+.middle .col-xl-4 .img{
+    position: relative;
+    max-width: 350px;
+}
+
+.middle .col-xl-4 img{
+    width: 100%;
+}
+
+.middle .col-xl-4{
+    margin-bottom: 50px;
+}
+
+.middle .abs{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #68cd16;
+    line-height: 60px;
+    top: 30px;
+    left: 30px;
+}
+
+.middle .blocks a{
+    padding: 14px 31px !important;
+}
+
+.middle h3{
+    margin: 65px 0 50px;
+    color: #68cd16;
+    font-size: 36px;
+}
+
+.middle h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.middle ul{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.middle h4 span{
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bottom img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.bottom{
+    font-size: 14px;
+    padding: 100px 0;
+}
+
+.bottom h5{
+    margin: 31px 0 18px;
+}
+
+.bottom p{
+    line-height: 24px;
+}
+
+footer{
+    background: #060503;
+    padding: 30px 0 50px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 50px;
+}
