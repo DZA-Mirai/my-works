@@ -1,0 +1,453 @@
+@import "../fonts/stylesheet.css";
+
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+
+input,textarea,select,button{
+    outline: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+}
+
+.navbar-toggler{
+    border: none;
+    position: absolute;
+    top: 25px;
+    left: -70px;
+}
+
+.login{
+    position: absolute;
+    border: 2px solid #231f20;
+    height: 29px;
+    width: 25px;
+    top: 25px;
+    right: -50px;
+    border-left: none;
+    color: #231f20;
+}
+
+.login i{
+    position: absolute;
+    top: 4px;
+    left: -6px;
+    color: #231f20;
+}
+
+.navbar{
+    padding: 21px 30px !important;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+nav .tel{
+    padding: 11px 22px 10px 36px;
+    background: #ffd200;
+    border-radius: 10px;
+}
+
+nav .tel a{
+    border-bottom: 2px dotted #212121;
+    padding-right: 20px;
+    color: #212121;
+}
+
+header{
+    padding: 55px 0 265px;
+    background: url("../images/header_bg_02.jpg") no-repeat center center / cover;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+header h4{
+    font-size: 24px;
+    font-family: 'PF Agora Sans Pro';
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+header h1 span{
+    font-size: 70px;
+}
+
+.button{
+    padding: 17px 34px 14px;
+    border: 1px solid #010101;
+    color: #212121 !important;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.advantage .button{
+    margin-top: 85px;
+    color: #fff !important;
+    background: #e11a27;
+    border: none;
+}
+
+.container-extra{
+    max-width: 976px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+
+.first{
+    padding: 55px 0 92px;
+}
+
+.first .img{
+    border: 5px solid #ffd200;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    position: relative;
+}
+
+.first .img .line{
+    position: absolute;
+    left: 135px;
+}
+
+.first .block p{
+    max-width: 120px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.title span{
+    font-size: 60px;
+}
+
+.advantage .title{
+    margin-bottom: 65px;
+}
+
+.advantage{
+    padding: 60px 0 77px;
+    background: #f3f0e7;
+}
+
+.advantage .pic{
+    background: #fff;
+    border-radius: 50%;
+    max-width: 267px;
+    height: 267px;
+    overflow: hidden;
+}
+
+.advantage h5{
+    max-width: 259px;
+    margin: 25px 0;
+}
+
+.advantage p{
+    max-width: 269px;
+}
+
+.advantage .center{
+    width: 267px;
+}
+
+.solution{
+    padding: 73px 0 113px;
+}
+
+.solution .title{
+    margin-bottom: 82px;
+    text-align: center;
+}
+
+.solution .card{
+    width: 314px;
+    padding: 45px 5px 15px;
+    background: #ffd200;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+
+.solution .card .abs{
+    position: absolute;
+    top: -21px;
+    left: 61px;
+    width: 193px;
+    height: 0;
+    border-bottom: 25px solid #ffd200;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+} 
+
+.solution .card .abs p{
+    color: #e11a27;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'PF Agora Sans Pro';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.solution .card h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.solution .card h3 span{
+    font-size: 36px;
+}
+
+.solution .card .card-inside{
+    height: 252px;
+    background: #fff;
+    padding: 19px 21px 0 21px;
+    margin-bottom: 17px;
+}
+
+.solution .card .card-inside ul li::before{
+    content: url("../images/section3_ul-check.png");
+    margin-right: 13px;
+    line-height: 1px;
+}
+
+.solution .card .card-inside ul li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.solution .card .card-inside ul li:last-child{
+    margin-bottom: 0;
+}
+
+.solution .card .card-inside p{
+    font-size: 60px;
+    text-align: center;
+    display: inline-block;
+    margin-top: -12px;
+}
+
+.solution .card .text p{
+    margin-right: 7px;
+    font-size: 22px;
+}
+
+.solution .card .text h6{
+    text-transform: uppercase;
+}
+
+.solution .card .text h6 span{
+    font-size: 22px;
+}
+
+.testi{
+    padding: 40px 0 52px;
+    background: url("../images/section4_bg_05.jpg") no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #f7f0e6;
+}
+
+.testi .title{
+    margin-bottom: 56px;
+}
+
+.testi .photo img{
+    border-radius: 50%;
+}
+
+.testi .photo{
+    margin-right: 23px;
+    margin-bottom: 26px;
+}
+
+.testi .name{
+    max-width: 179px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.testi .name h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.testi .name h4 span{
+    font-size: 30px;
+}
+
+.testi .text{
+    max-width: 524px;
+    font-size: 18px;
+    padding-left: 4px;
+}
+
+.testi .text p{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.testi .text a{
+    margin-top: 25px;
+    display: inline-flex;
+    align-items: flex-start;
+    font-family: 'PF Agora Sans Pro';
+    font-weight: 100;
+    color: #000;
+}
+
+.testi .text a::after{
+    content: url("../images/arrow.png");
+    margin-left: 14px;
+    line-height: 18px;
+}
+
+.testi .button{
+    margin: 115px 0 0 95px;
+}
+
+.terms{
+    padding: 92px 0 112px;
+}
+
+.card-top,.card-bottom{
+    width: 314px;
+}
+
+.terms .card-top{
+    padding: 20px 0;
+    text-align: center;
+    background: #ffd200;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.terms .card-top h4 span{
+    font-size: 34px;
+}
+
+.terms .card-bottom{
+    padding: 30px 0 0 36px;
+    background: #f7f0e6;
+    height: 280px;
+    border-radius: 0 0 10px 10px;
+}
+
+.terms .card-bottom p{
+    max-width: 233px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.terms .card-bottom ul{
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.terms .card-bottom ul li{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.terms .card-bottom .text p{
+    margin-bottom: 0;
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.terms .card-bottom .text{
+    color: #e11a27;
+}
+
+.terms .card-bottom .text h6{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.terms .card-bottom .text h6 span{
+    font-size: 18px;
+}
+
+.terms .button{
+    display: block;
+    margin: 0 auto;
+    max-width: 377px;
+    text-align: center;
+    margin-top: 75px;
+    background: #e11a27;
+    color: #fff !important;
+    border: none;
+}
+
+footer{
+    padding: 51px 0 56px;
+    background: #ffd200;
+}
+
+footer .links{
+    border-top: 1px solid #000;
+    padding-top: 30px;
+}
+
+footer .links ul a{
+    color: #000;
+    font-size: 18px;
+}
+
+footer .links ul a span{
+    font-size: 13px;
+}
+
+footer .links ul li{
+    margin-bottom: 8px;
+}
+
+footer .social a{
+    color: #ffd200;
+    background: #000;
+    padding-top: 5px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+footer .social i{
+    width: 25px;
+    text-align: center;
+}
+
+footer .copy{
+    font-size: 14px;
+    margin-top: 116px;
+}

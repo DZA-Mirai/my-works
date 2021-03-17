@@ -1,0 +1,174 @@
+@media (max-width: 1199.98px){
+    .navbar-toggler{
+        left: -30px;
+    }
+    .login{
+        right: -18px;
+        top: 28px;
+    }
+    .solution .card{
+        max-width: 290px;
+    }
+    .solution .card .abs{
+        left: 50px;
+    }
+    .testi{
+        padding: 30px 0;
+        background-size: 50% 100%;
+    }
+    .card-top,.card-bottom{
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .first .container-extra{
+        flex-wrap: wrap;
+        max-width: 441px;
+    }
+    .hidden-md{
+        display: none;
+    }
+    .first .block{
+        margin-bottom: 30px;
+    }
+    .advantage .center-md{
+        width: 267px;
+    }
+    .advantage .col-xl-4{
+        margin-bottom: 50px;
+    }
+    .solution .bestseller{
+        order: -1;
+    }
+    .solution .col-xl-4{
+        margin-bottom: 50px;
+    }
+    .testi{
+        background-size: 70% 100%;
+    }
+    .terms .col-xl-4{
+        margin-bottom: 50px;
+    }
+    .end{
+        align-items: flex-end !important;
+    }
+}
+
+@media (max-width: 767.98px){
+    h1{
+        font-size: 38px !important;
+    }
+    header{
+        padding-bottom: 200px;
+    }
+    .advantage .col-xl-4{
+        align-items: center !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .advantage .pic-sm{
+        width: 267px;
+    }
+    .testi{
+        background: none;
+        background-color: #f7f0e6 !important;
+    }
+    .terms .col-xl-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    footer .social i{
+        width: 25px;
+    }
+    footer .social a{
+        margin-right: 8px;
+    }
+    
+@media (max-width: 575.98px){
+    .navbar{
+        justify-content: center;
+    }
+    .navbar-brand{
+        margin: 0 0 15px !important;
+        
+    }
+    nav .tel{
+        padding: 5px 27px 8px;
+    }
+    nav .tel a{
+        padding: 0;
+    }
+    .navbar-toggler{
+        top: 43px;
+        left: -7px;
+    }
+    .login{
+        top: 48px;
+        right: 0;
+    }
+    header{
+        padding: 40px 0 125px;
+    }
+    h1{
+        font-size: 30px !important;
+        margin-bottom: 10px;
+    }
+    header h4{
+        margin-bottom: 35px;
+    }
+    .button{
+        padding: 10px 15px;
+    }
+    .first{
+        padding: 45px 0 50px;
+    }
+    .first .container-extra{
+        flex-wrap: wrap;
+        max-width: 290px;
+        justify-content: center !important;
+    }
+    .first .line{
+        display: none;
+    }
+    .advantage{
+        padding: 45px 0 50px;
+    }
+    .advantage .button{
+        margin-top: 10px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .solution{
+        padding: 50px 0 60px;
+    }
+    .solution .col-xl-4{
+        display: flex;
+        align-items: center !important;
+    }
+    .testi .button{
+        margin: 60px 0 20px;
+        padding: 10px 12px;
+    }
+    .terms{
+        padding: 50px 0 60px;
+    }
+    .terms .button{
+        margin-top: 15px;
+    }
+    footer .links{
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer .col-xl-2{
+        margin-bottom: 35px;
+    }
+    footer .copy{
+        margin-top: 65px;
+    }
+    footer{
+        padding: 45px 0 50px;
+    }
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('PFAgoraSansPro-Bold.eot');
+    src: url('PFAgoraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PFAgoraSansPro-Bold.woff2') format('woff2'),
+        url('PFAgoraSansPro-Bold.woff') format('woff'),
+        url('PFAgoraSansPro-Bold.ttf') format('truetype'),
+        url('PFAgoraSansPro-Bold.svg#PFAgoraSansPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('PFAgoraSansPro-Light.eot');
+    src: url('PFAgoraSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PFAgoraSansPro-Light.woff2') format('woff2'),
+        url('PFAgoraSansPro-Light.woff') format('woff'),
+        url('PFAgoraSansPro-Light.ttf') format('truetype'),
+        url('PFAgoraSansPro-Light.svg#PFAgoraSansPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff'),
+        url('MyriadPro-Regular.ttf') format('truetype'),
+        url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('PFAgoraSansPro-Thin.eot');
+    src: url('PFAgoraSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PFAgoraSansPro-Thin.woff2') format('woff2'),
+        url('PFAgoraSansPro-Thin.woff') format('woff'),
+        url('PFAgoraSansPro-Thin.ttf') format('truetype'),
+        url('PFAgoraSansPro-Thin.svg#PFAgoraSansPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
